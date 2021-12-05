@@ -1,4 +1,4 @@
-filename = "input_1.txt"
+filename = 'input_1.txt'
 depth = File.readlines(filename).map(&:to_i)
 measurement_increases_count = 0
 
